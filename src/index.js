@@ -11,9 +11,9 @@ axios.defaults.baseURL = `https://corsproxy.io/?${process.env.REACT_APP_AXIOS_BA
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  // </React.StrictMode>,
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
 );
