@@ -1,0 +1,41 @@
+.result {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+
+  &-index {
+    opacity: 0.7;
+  }
+
+  &-summary {
+    flex: 1;
+
+    &-question {
+      font-size: 1.1rem;
+      margin-bottom: 3px;
+    }
+
+    &-answer {
+      font-style: italic;
+      font-size: 0.9rem;
+      color: gray;
+    }
+  }
+
+  &-status {
+    margin-left: 20px;
+    margin-block: auto;
+
+    svg {
+      width: 20px;
+    }
+
+    .correct {
+      fill: #4fbd1b;
+    }
+
+    .incorrect {
+      fill: #dc143c;
+    }
+  }
+}

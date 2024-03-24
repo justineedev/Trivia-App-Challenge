@@ -1,0 +1,11 @@
+.app {
+  height: 100vh;
+  background-image: url('./assets/bg.png');
+  background-size: cover;
+}
+
+.page {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}

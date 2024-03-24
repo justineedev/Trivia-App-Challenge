@@ -1,0 +1,15 @@
+.error,
+.loading {
+  font-size: 4rem;
+  max-width: 50vw;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.error {
+  color: #ff0800;
+}
+
+.loading {
+  color: #ffffff;
+}

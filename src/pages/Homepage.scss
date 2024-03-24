@@ -1,0 +1,27 @@
+.home-card {
+  padding: 50px;
+  border-radius: 6px;
+  background: #ffffff;
+  display: grid;
+  place-items: center;
+
+  &-body {
+    margin-block: 2.5rem;
+
+    h3 {
+      word-spacing: 4px;
+      font-weight: 500;
+    }
+
+    &-banner {
+      margin: 2rem auto 1rem;
+      padding: 10px;
+      text-align: center;
+      background-color: #085696;
+      color: #ffffff;
+      font-size: 1.5rem;
+      width: 75%;
+      border-radius: 6px;
+    }
+  }
+}
